@@ -1,7 +1,7 @@
 import {React, useContext, useState} from 'react'
 import { ArrowRight, Download, LampDesk, LayoutTemplate, Menu, X, Zap } from 'lucide-react';
 import { landingPageStyles } from '../assets/dummyStyle'
-import { UserContext } from '../context/userContext';
+import { UserContext } from '../context/UserContext';
 import { useNavigate } from 'react-router-dom';
 import ProfileInfoCard from '../components/Cards';
 import Modal from '../components/Modal';
@@ -323,3 +323,4 @@ const LandingPage = () => {
 }
 
 export default LandingPage
+
